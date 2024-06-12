@@ -52,13 +52,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import matrixTriangles from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-triangles@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-matrix-triangles/tags). For example,
+
+```javascript
 import matrixTriangles from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-triangles@v0.0.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-triangles@v0.0.1-esm/index.mjs';
+import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-triangles@esm/index.mjs';
 ```
 
 #### matrixTriangles()
@@ -102,7 +107,7 @@ The output array contains the following types:
 <script type="module">
 
 var contains = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-contains' ).factory;
-import matrixTriangles from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-triangles@v0.0.1-esm/index.mjs';
+import matrixTriangles from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-triangles@esm/index.mjs';
 
 var isMatrixTriangle = contains( matrixTriangles() );
 
