@@ -2,29 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="v0.0.2">
+<section class="release" id="unreleased">
 
-## 0.0.2 (2024-07-27)
-
-No changes reported for this release.
-
-</section>
-
-<!-- /.release -->
-
-<section class="release" id="v0.0.1">
-
-## 0.0.1 (2024-06-12)
-
-<section class="features">
-
-### Features
-
--   [`917e002`](https://github.com/stdlib-js/stdlib/commit/917e00207daf329791c74bba0060f9df5094b267) - add `blas/base/matrix-triangles`
-
-</section>
-
-<!-- /.features -->
+## Unreleased (2024-08-01)
 
 <section class="commits">
 
@@ -32,9 +12,7 @@ No changes reported for this release.
 
 <details>
 
--   [`92564b0`](https://github.com/stdlib-js/stdlib/commit/92564b0633ff473785ceb4b14691a08a97dd62be) - **style:** fix indentation and rename files _(by Athan Reines)_
--   [`5e6bc89`](https://github.com/stdlib-js/stdlib/commit/5e6bc8976dc934eeba7ff67b30a344ef4c33b559) - **style:** fix indentation _(by Athan Reines)_
--   [`917e002`](https://github.com/stdlib-js/stdlib/commit/917e00207daf329791c74bba0060f9df5094b267) - **feat:** add `blas/base/matrix-triangles` _(by Athan Reines)_
+-   [`22c4d29`](https://github.com/stdlib-js/stdlib/commit/22c4d29898e2b5bb4cb071a6b7f62536027eaf28) - **docs:** remove blank line _(by Athan Reines)_
 
 </details>
 
@@ -53,6 +31,26 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.2">
+
+## 0.0.2 (2024-07-27)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.1">
+
+## 0.0.1 (2024-06-12)
+
+No changes reported for this release.
 
 </section>
 
