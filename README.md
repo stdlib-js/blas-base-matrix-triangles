@@ -52,13 +52,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import matrixTriangles from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-triangles@deno/mod.js';
+import matrixTriangles from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-triangles@v0.0.3-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-triangles@deno/mod.js';
+import { enum } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-triangles@v0.0.3-deno/mod.js';
 ```
 
 #### matrixTriangles()
@@ -97,7 +97,7 @@ The output array contains the following types:
 
 ```javascript
 var contains = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-assert-contains' ).factory;
-import matrixTriangles from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-triangles@deno/mod.js';
+import matrixTriangles from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-matrix-triangles@v0.0.3-deno/mod.js';
 
 var isMatrixTriangle = contains( matrixTriangles() );
 
